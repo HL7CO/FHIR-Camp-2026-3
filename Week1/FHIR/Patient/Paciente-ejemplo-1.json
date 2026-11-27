@@ -1,0 +1,55 @@
+{
+    "resourceType": "Patient",
+    "id": "822fc181-1aa1-4998-ac1c-578bb3c46bac",
+    "identifier": [
+        {
+            "use": "usual",
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                        "code": "MR",
+                        "display": "Medical record number"
+                    }
+                ],
+                "text": "Número de historia clínica"
+            },
+            "system": "http://mi-hospital.org/Historias-clinicas",
+            "value": "HC3423948785"
+        },
+        {
+            "use": "official",
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                        "code": "PPN",
+                        "display": "Passport number"
+                    }
+                ],
+                "text": "Pasaporte"
+            },
+            "system": "http://fhir.minsalud.gov.co/NamingSystem/IdentificacionesPersona",
+            "value": "AF39128374",
+            "period": {
+                "start": "2020-10-08",
+                "end": "2030-10-08"
+            }
+        }
+    ],
+    "active": true,
+    "name": [
+        {
+            "use": "official",
+            "text": "Gabriel Jaime Rodríguez Martínez",
+            "family": "Rodríguez Martínez",
+            "given": ["Gabriel", "Jaime"]
+        },
+        {
+            "use": "usual",
+            "text": "Jaime Rodriguez Martínez"
+        }
+    ],
+    "gender": "male",
+    "birthDate": "1985-08-20"
+}
